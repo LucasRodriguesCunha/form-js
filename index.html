@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilo -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Fonte - Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+
+    <title>Form | Contato</title>
+</head>
+
+<body>
+    <header>
+        <h1>Formulário de contato</h1>
+    </header>
+    <main class="container">
+        <form id="contactForm">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+            <span class="erro" id="nomeErro"></span>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <span class="erro" id="emailErro"></span>
+
+            <label for="assunto">Assunto</label>
+            <input type="text" name="assunto" id="assunto">
+            <span class="erro" id="assuntoErro"></span>
+
+            <label for="mensagem">Mensagem</label>
+            <input type="text" name="mensagem" id="mensagem">
+            <span class="erro" id="mensagemErro"></span>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
