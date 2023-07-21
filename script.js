@@ -1,5 +1,5 @@
 // Elementos do formulário
-const form = document.querySelector("#contactForm");
+const form = document.querySelector("#formContato");
 const nomeInput = document.querySelector("#nome");
 const emailInput = document.querySelector("#email");
 const assuntoInput = document.querySelector("#assunto");
